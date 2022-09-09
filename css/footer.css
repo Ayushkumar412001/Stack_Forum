@@ -1,0 +1,135 @@
+/* ************************************* Footer ****************** */
+footer {
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.5)),url("https://source.unsplash.com/1080x720/?yellow,black,abstract,painting");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    padding: 100px 40px;
+    box-sizing: border-box;
+}
+.footer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* general  */
+.footer .general {
+    width: 50%;
+    padding: 20px;
+}
+.general h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.general span {
+    color: #3d679b;
+    font-weight: 800;
+}
+.general p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+.general .social {
+    width: 100%;
+    display: flex;
+}
+.general .social a  {
+    color: #3d679b;
+    font-size: 26px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 50px 10px 0;
+    background-color: white;
+    transition: .3s;
+}
+.general .social a:hover {
+    color: white;
+    background-color: #3d679b;
+    transform: scale(1.08);
+}
+.general .social .twitter , .general .social .face , .general .social .insta{ 
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+/* information */
+.footer .information{
+    width: 40%;
+    padding: 20px;
+}
+.information p {
+    font-size: 20px;
+    padding-bottom: 40px;
+
+}
+
+/* support */
+.footer .support {
+    width: 40%;
+    padding: 20px;
+}
+.support p {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+/* questions */
+.footer .questions {
+    width: 40%;
+    padding: 20px;
+}
+.questions p {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.questions i {
+    padding-right: 10px;
+    color: white;
+}
+
+/* footer ul li a*/
+footer ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+footer ul li a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: .5s;
+}
+footer ul li a:hover {
+    color: white;
+    padding-left: 3px;
+}
+
+
+footer #copyright {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width:700px) {
+        /* ********************************  Footer ********************* */
+        footer {
+            padding: 50px 10px;
+        }
+        .footer {
+            display: block;
+            width: 100%;
+        }
+        .footer .general , .footer .information , .footer .support , .footer .questions {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    
+}

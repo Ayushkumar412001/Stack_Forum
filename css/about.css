@@ -1,0 +1,154 @@
+/* *******************************   About us  **************************************** */
+.about{
+    width: 100%;
+    display: flex;
+    background-color:#F8F9FA;
+    padding-top: 90px;
+}
+/* About image */
+.about .imgcontanner{
+    width: 35%;
+    position: relative;
+}
+
+.about .imgcontanner img{
+    position: absolute;
+    height: 450px;
+    width: 550px;
+    top: 80px;
+    left: 30%;
+    object-position: 40% 65%;
+    object-fit: cover;   
+    box-shadow: 0px 5px 20px -1px rgb(0 0 0 / 30%);
+}
+
+/* about content */
+.about .aboutcontent {
+    width: 65%;
+    padding: 80px 7% 80px 15%;
+    color: white;
+    background-color: #004599bb;
+}
+.aboutcontent h5 {
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.692);
+}
+.aboutcontent h1 {
+    font-weight: 600;
+    font-size: 45px;
+    padding:30px 0 50px;
+    line-height: 120%;
+}
+.aboutcontent p {
+    padding-bottom: 20px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+/* button Search Vehicle */
+.aboutcontent a {
+    color: white;
+    text-decoration: none;
+    background-color: #004599bb;
+    padding: 12px 20px;
+    border-radius: 3px;
+}
+.aboutcontent a:hover {
+    background-color: #0045999a;
+}
+
+@media only screen and (max-width : 700px) {
+    /* *******************************   About us  **************************************** */
+    .about{
+        width: 100%;
+        display: block;
+        background-color:#F8F9FA;
+        padding-top: 0px;
+    }
+    /* About image */
+    .about .imgcontanner{
+        width: 100%;
+        padding:3%;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+
+    }
+    .about .imgcontanner img{
+        display: none;
+    }
+
+    /* about content */
+    .about .aboutcontent {
+        width: 100%;
+        padding: 65px 4%;
+        box-sizing: border-box;
+    }
+    .aboutcontent h5 {
+        margin-bottom: 10px;
+    }
+    .aboutcontent h1 {
+        font-size: 30px;
+    }
+}
+
+
+/* ********************************  Become a Driver ************************* */
+.driver{
+    width: 100%;
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+    background-position: 0px -140px;
+    background-size:cover;
+    position: relative;
+    height: 400px;
+    color: white;
+}
+.driver img {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    object-position: 40% 25%;
+    object-fit: cover;
+    z-index: -1;
+}
+.driver .cutcolor {
+    border-right: 300px solid transparent;
+    border-top: 400px solid #d8680d;
+    border-left: 400px solid #d8680d;
+}
+.driver .becomedriver {
+    padding: 8% 4%;
+}
+.driver .becomedriver h1 {
+    font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.driver .becomedriver a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #d8680d;
+    border-radius: 3px;
+}
+.driver .becomedriver a:hover{
+    background-color: #f2740d;
+}
+
+@media only screen and (max-width : 700px) {
+    /* ********************************  Become a Driver ************************* */
+    .driver {
+        background-position: center;
+    }
+    .driver .cutcolor {
+        display: none;
+    }
+    .driver .becomedriver {
+        margin: auto;
+    }
+    .driver .becomedriver h1 {
+        font-size: 30px;
+    }
+}
